@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabs</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="tab">
+        <button class="tablinks" 
+        onclick="openCity(event, 'fact1')"
+        id="defaultOpen">Fact 1</button>
+        <button class="tablinks" 
+        onclick="openCity(event, 'fact2')">Fact 2</button>
+        <button class="tablinks" 
+        onclick="openCity(event, 'fact3')">Fact 3</button>
+        <button class="tablinks" 
+        onclick="openCity(event, 'fact4')">Fact 4</button>
+    </div>
+
+    <div class="text">
+        <p>
+           Clicking each tab should hide the content of
+           the other tab and show the content of clicked
+           tab. By default, the first tab is enabled. 
+        </p>
+    </div>
+
+    <div id="fact1" class="tabcontent">
+        <p>
+            <strong>A cloud weighs around a million
+            tonnes.</strong> A cloud typically has a
+            volume of around 1km<sup>3</sup> and
+            a density of around 1.003kg per m<sup>3</sup>
+            - that's a density that's around 0.4 percent
+            lower than the air surrounding it.
+            (<a href="https://www.sciencefocus.com/planet-earth/how-much-does-a-cloud-weigh/" 
+            class="link"
+            target="_blank"
+            >this is how they are 
+            able to float</a>).
+        </p>
+    </div>
+    
+    <div id="fact2" class="tabcontent">
+        <p>
+            <strong>Identical twins don't have the same
+            fingerprints.</strong> You can't blame your
+            crimes on your twin, after all. This is because
+            <a href="https://www.sciencefocus.com/the-human-body/why-do-identical-twins-have-different-fingerprints-2/" 
+            class="link"
+            target="_blank"
+            >environmental factors during development
+            in the womb</a> (umbilical cord length, position
+            in the womb, and the rate of finger growth)
+            impact your fingerprint.
+        </p>
+    </div>
+
+    <div id="fact3" class="tabcontent">
+        <p>
+            <strong>Earth's rotation is changing speed.</strong>
+            <a href="https://www.sciencefocus.com/planet-earth/earths-mysterious-core" 
+            class="link"
+            target="_blank"
+            >It's actually slowing</a>. this means that, on
+            average, the length of a day increases by around
+            1.8 seconds per century. 600 million years ago
+            a day lasted just 21 hours.
+        </p>
+    </div>
+
+    <div id="fact4" class="tabcontent">
+        <p>
+            <strong>Leftover pasta has extra health
+            benefits</strong>. That's because it contains
+            <a href="https://www.sciencefocus.com/the-human-body/the-secret-super-carb-how-resistance-starch-can-transform-your-gut-health" 
+            class="link"
+            target="_blank"
+            >more resistant starch</a> than fresh pasta, thanks
+            to the effect of cooking and cooling on the pasta
+            starch's structure. Resistant starch has been
+            linked to improved blood sugar control and better
+            gut health.
+        </p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
